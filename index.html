@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="responsiveContato.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiled/bootstrap.css" />
 </head>
@@ -15,7 +16,7 @@
             <p class="img-toggle"></p>
         </div>
         <h2>CONTATE-NOS</h2>
-        <div class="formBox">
+        <div class="formBox scroll">
             <form action="" method="post">
                 <div class="inputBox">
                     <div class="inputText">Nome</div>
@@ -33,7 +34,9 @@
                     <div class="inputText">Mensagem</div>
                     <textarea name="" class="input"></textarea>
                 </div>
-                <input type="submit" value="Enviar">
+                <div class="inputBox">
+                    <input type="submit" value="Enviar">
+                </div>
             </form>
         </div>
     </div>

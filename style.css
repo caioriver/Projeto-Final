@@ -8,6 +8,7 @@ body{
     height: 100vh;
     background: url(img/prateleiras-supermercado.jpg);
     background-size: cover;
+    background-position: center; 
     background-attachment: fixed;
 }
 .content{
@@ -47,6 +48,7 @@ body{
     text-align: center;
     margin: 0 0 30px;
     padding: 0;
+    color: #0971B2;
 }
 .sidebar-contact textarea{
     height: 82px;
@@ -78,26 +80,28 @@ body{
     content: url(icones/cross-remove-sign.png);
 }
 
+
+
+
 .inputBox{
     position: relative;
     box-sizing: border-box;
     margin-bottom: 25px;
 }
-
 input.input, textarea.input{
     position: relative;
     width: 100%;
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px solid rgba(0,0,0,.5); 
+    border-bottom: 2px solid rgba(9,113,178,.7); 
 }
 .inputText{
     position: absolute;
     line-height: 50px;
     font-size: 18px;
     transition: .5s;
-    opacity: .5;
+    color: rgba(9,113,178,.5);
     margin-top: -10px;
 }
 .focus .inputText{
