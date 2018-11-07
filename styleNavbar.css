@@ -1,0 +1,13 @@
+.cor-navbar{
+    color: white;
+    background-color: #0F4465;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: white;
+}
+.hvr-underline-from-center{
+}

@@ -5,12 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="responsiveContato.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiled/bootstrap.css" />
+
+    <!-- Hover.css -->
+    <link rel="stylesheet" href="hover/css/hover.css">
+
+    <!-- Outros -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    
+    <!-- CSS do Desenvolvedor -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsiveContato.css">
+    <link rel="stylesheet" type="text/css" href="styleNavbar.css">
+
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg cor-navbar">
+            
+            <div class="container">
+            
+                <a class="navbar-brand" href=""><img src="icones/Component.png" width="150"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <img src="icones/user-shape.png" alt="">
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSite">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="">Usuários</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            
+        </nav>
+
+
+
+
+
+
+
+
+    </header>
+
+
+
     <div class="sidebar-contact">
         <div class="toggle">
             <p class="img-toggle"></p>
@@ -77,8 +133,8 @@
         placerat.</p>
     </div>
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="functions.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="functions.js"></script>
 </body>
 </html>
