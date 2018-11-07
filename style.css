@@ -21,12 +21,13 @@ body{
 }
 .sidebar-contact{
     position: fixed;
-    top: 50%;
+    top: 60%;
+    z-index: 50;
     left: -350px;
     transform: translateY(-50%);
     width: 350px;
-    height: auto;
-    padding: 40px;
+    height: 480px;
+    padding: 20px 40px 30px 40px;
     background: #fff;
     box-shadow: 0 20px 50px rgba(0,0,0,.5);
     box-sizing: border-box;
@@ -62,13 +63,19 @@ body{
 }
 .toggle{
     position: absolute;
-    top: 0;
+    top: 50%;
     right: -48px;
     width: 48px;
     height: 48px;
     text-align: center;
     cursor: pointer;
+    transition: 0.5s;
     background: #BF1D1D;
+}
+.sidebar-contact.active .toggle{
+    top: 0;
+    right: -48px;
+    transform: translateY(0);
 }
 .img-toggle{
     margin: 8px 7px;
