@@ -103,7 +103,9 @@ body{
         font-weight: bold;
     }
     /* Fim de Efeitos do Texto da Barra de Contatos */
-
+.btn-contato{
+    width: 100%;
+}    
 /* Fim da Barra de Contatos */
 
 /* Footer */
@@ -111,20 +113,37 @@ body{
     background-color: #0971B2;
     color:white;
     width: 100%;
-    height: 50vh;
+    height: 30vh;
 }
 .ftr-cor{
     background-color: #BF1D1D;
     color: white;
     text-align: center;
 }
+.mg-redes{
+    margin-top: 3vh;
+}
 /* Fim do Footer */
 
 /* Slide */
 .img-slide{
-    min-height: 100%;
-    min-width: 1024px;
+    /* min-height: 100%; */
+    min-width: 100%;
   /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+  /* Centraliza a imagem */
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
+    #bg{
+       top: 0;
+       left: 0;
+    }
+    .bgheight{
+        height: 100%;
+    }
+    .bgwidth{
+        height: 100%;
+    }
+/* Fim do Slide */
