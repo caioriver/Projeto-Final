@@ -19,8 +19,9 @@
 
 </head>
 <body>
+    <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg cor-navbar">  
+        <nav class="navbar navbar-expand-lg fixed-top cor-navbar">  
             <div class="container">
                 <a class="navbar-brand" href=""><img src="icones/logo.png" width="150"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -33,7 +34,7 @@
                             <div class="pg-atual"></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-center" href="">Quem Somos</a>
+                            <a class="nav-link hvr-underline-from-center" href="QuemSomos.html">Quem Somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link hvr-underline-from-center" href="">Produtos</a>
@@ -87,13 +88,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="img/prateleiras-supermercado.jpg" alt="First slide">
+                <img class="d-block img-slide" src="img/prateleiras-supermercado.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/prateleiras-supermercado.jpg" alt="Second slide">
+                <img class="d-block img-slide" src="img/prateleiras-supermercado.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/prateleiras-supermercado.jpg" alt="Third slide">
+                <img class="d-block img-slide" src="img/prateleiras-supermercado.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -107,43 +108,49 @@
       </div>
 
     <!-- Footer -->
-    <div class="content">
-        <h2>Lorem Ipsum</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo tellus, mollis et vestibulum ac, ultrices sed ipsum.
-        Phasellus auctor turpis eget luctus luctus. Cras elementum viverra elit, non dignissim tellus fringilla sed. Integer
-        ornare velit at diam malesuada, id dignissim elit molestie. Aliquam nisi lacus, rhoncus gravida faucibus nec, ornare id
-        nisi. Nulla sagittis porta lacus. Ut accumsan lectus nec ipsum ullamcorper, sed suscipit nibh rhoncus. Aenean neque
-        libero, dapibus sit amet convallis at, suscipit at odio. Pellentesque euismod lacinia metus id efficitur.<br>
-        
-        In feugiat dapibus fringilla. Curabitur elementum, lacus ac blandit iaculis, eros erat facilisis lacus, nec ultrices
-        neque nulla at ante. Praesent congue id arcu ac rhoncus. Quisque fringilla dapibus fringilla. Aliquam erat volutpat.
-        Vestibulum sollicitudin, lacus non rhoncus feugiat, ex purus varius leo, eu porttitor mauris ipsum ut elit. Vivamus
-        tempus, ipsum quis fringilla viverra, dolor mi scelerisque orci, eu cursus quam dolor id nulla. Etiam nisi lacus,
-        elementum id ante sed, cursus convallis ligula. Nunc vel ligula non sem finibus luctus vitae eget nunc.<br>
-        
-        Maecenas et feugiat risus, blandit maximus libero. Mauris tristique arcu justo, vitae mollis ex blandit et. Nam at quam
-        vel enim porttitor dignissim. Vestibulum gravida ultrices tellus a eleifend. Vestibulum ultrices elit vel libero
-        rutrum, quis varius justo efficitur. Integer fermentum nulla quis ipsum blandit facilisis. Nam quis libero sit amet
-        lorem gravida imperdiet. In hac habitasse platea dictumst. Maecenas vel quam congue, euismod lacus nec, gravida ex.
-        Suspendisse eleifend non est non ornare. Donec hendrerit finibus leo eu eleifend.<br>
-        
-        Morbi vel ante sem. Integer augue neque, sollicitudin id tristique non, posuere vel magna. Aenean tristique varius
-        sapien eu cursus. Quisque aliquet felis eu sapien tempus, eget interdum nisl ornare. Morbi sollicitudin accumsan
-        hendrerit. Duis lacinia, urna lacinia dapibus pulvinar, metus dolor ultrices tellus, vel egestas ipsum metus id lacus.
-        Sed velit nibh, faucibus vel arcu sit amet, suscipit sagittis velit. Maecenas sed pellentesque diam, eu congue tellus.
-        In hac habitasse platea dictumst. Fusce accumsan felis arcu, sed lacinia purus consequat at. Sed viverra libero vitae
-        risus pharetra egestas. Aenean in vestibulum erat, in ornare ipsum. Maecenas et imperdiet purus, in lobortis nibh.
-        Fusce nec felis lacinia, dapibus libero rutrum, porttitor metus.<br>
-        
-        Donec nec malesuada magna. In maximus tincidunt diam et scelerisque. Vivamus pharetra, turpis vitae lacinia facilisis,
-        quam enim pulvinar urna, et elementum turpis felis non nisl. Nunc massa massa, tincidunt ac odio et, elementum
-        consequat eros. Sed vulputate, odio eu tempus varius, lectus ex mattis orci, sit amet viverra mauris lectus varius
-        massa. Donec euismod mattis nisi in tincidunt. Etiam eu semper turpis. Nam ex nisl, volutpat eget massa id, hendrerit
-        interdum nisl. Pellentesque et est id erat iaculis iaculis sit amet eget eros. Pellentesque et lorem sed mauris porta
-        placerat.</p>
+    <div class="redes-cor">
+        <div class="container row justify-content-around">
+            <div class="col-4">
+                <img src="icones/instagram-branco.png" alt="" width="50">
+                <span class="ml-2">Instagram</span>
+            </div>
+        </div>
+        <div class="container row justify-content-around">
+            <div class="col-4">
+                <img src="icones/facebook-branco.png" alt="" width="50">
+                <span class="ml-2">Facebook</span>
+            </div>
+        </div>
+        <div class="container row justify-content-around">
+            <div class="col-4">
+                <img src="icones/telephone-handle-silhouette (1).png" alt="" width="50">
+                <span class="ml-2">(71)9XXXX-XXXX</span>
+            </div>
+        </div>
+        <div class="container row justify-content-around">
+            <div class="col-4">
+                <img src="icones/message-closed-envelope (1).png" alt="" width="50">
+                <span class="ml-2">email@contato.com</span>
+            </div>
+        </div>
+        <div class="container row justify-content-around">
+            <div class="col-4">
+                <img src="icones/wall-clock (1).png" alt="" width="50">
+                <span class="ml-2">Seg-Sab/8h-18h</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="icones/placeholder (1).png" alt="" width="50">
+            <span class="ml-2">Caminho das Árvores</span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.323382123755!2d-38.4674894721943!3d-12.982668653576788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b1753564b8b%3A0x33b3ce22ea6326f5!2sCaminho+das+%C3%81rvores%2C+Salvador+-+BA%2C+40301-155!5e0!3m2!1spt-BR!2sbr!4v1541642182356"
+                width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     </div>
+    <footer class="ftr-cor">
+        Desenvolvido por a Praxis - Empresa Jr. © 2018 Todos os direitos reservados.
+    </footer>
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_moduDesenvolvido por a Praxis - Empresa Jr. © 2018 Todos os direitos reservados.les/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="functions.js"></script>
 </body>
