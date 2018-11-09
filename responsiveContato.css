@@ -52,10 +52,3 @@
 		overflow: auto;
 	}
 }
-
-@media (max-width: 992px){
-	/* iframe de mapa */
-	.mapa{
-		display: none;
-	}
-}

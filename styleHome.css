@@ -1,0 +1,22 @@
+/* Slide */
+.img-slide{
+    /* min-height: 100%; */
+    min-width: 100%;
+  /* Set up proportionate scaling */
+    /* width: 100%;
+    height: auto; */
+  /* Centraliza a imagem */
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+    #bg{
+       top: 0;
+       left: 0;
+    }
+    .bgheight{
+        height: 100%;
+    }
+    .bgwidth{
+        height: 100%;
+    }
+/* Fim do Slide */

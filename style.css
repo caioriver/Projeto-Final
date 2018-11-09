@@ -56,7 +56,7 @@ body{
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-    background: #BF1D1D;
+    background: #BF1D1D; 
 }
 .sidebar-contact.active .toggle{
     top: 0;
@@ -110,10 +110,13 @@ body{
 
 /* Footer */
 .redes-cor{
-    background-color: #0971B2;
+    background-color: #BF1D1D;
     color:white;
     width: 100%;
-    height: 30vh;
+    overflow: hidden;
+}
+.ftr-cor hr{
+    background-color: rgb(100, 7, 7);
 }
 .ftr-cor{
     background-color: #BF1D1D;
@@ -121,29 +124,7 @@ body{
     text-align: center;
 }
 .mg-redes{
-    margin-top: 3vh;
+    margin: 3vh 0;
+    overflow: hidden;
 }
 /* Fim do Footer */
-
-/* Slide */
-.img-slide{
-    /* min-height: 100%; */
-    min-width: 100%;
-  /* Set up proportionate scaling */
-    /* width: 100%;
-    height: auto; */
-  /* Centraliza a imagem */
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-    #bg{
-       top: 0;
-       left: 0;
-    }
-    .bgheight{
-        height: 100%;
-    }
-    .bgwidth{
-        height: 100%;
-    }
-/* Fim do Slide */
