@@ -7,7 +7,7 @@
 	}
 	.sidebar-contact .toggle{
 		top: 50%;
-		transform: translateY(-60%);
+		transform: translateY(-50%);
 		transition: 0.5s;
 	}
 	.sidebar-contact.active .toggle{
@@ -28,7 +28,7 @@
 	}
 }
 
-@media (max-height: 660px){
+@media (max-height: 630px){
 	/* Barra de Contato */
 	.sidebar-contact{
 		width: 100%;
@@ -37,7 +37,7 @@
 	}
 	.sidebar-contact .toggle{
 		top: 50%;
-		transform: translateY(-60%);
+		transform: translateY(-50%);
 		transition: 0.5s;
 	}
 	.sidebar-contact.active .toggle{
