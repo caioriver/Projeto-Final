@@ -11,7 +11,10 @@
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiled/bootstrap.css" />
 
     <!-- Hover.css -->
-    <link rel="stylesheet" href="hover/css/hover.css">
+    <link rel="stylesheet" href="hover/css/hover-min.css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="animate.min.css">
  
     <!-- CSS do Desenvolvedor -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -51,7 +54,7 @@
     </header>
 
     <!-- Contato -->
-    <div class="sidebar-contact">
+    <div class="sidebar-contact animated fadeInLeft">
         <div class="toggle">
             <p class="img-toggle"></p>
         </div>
@@ -106,20 +109,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="caixaInput">
-                                    <input type="submit" value="Enviar" class="btn-login">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                    <div class="caixaInput">
-                                        <a href="index.html"><button>Voltar</button></a>
-                                    </div>
-                                </div>
+                        <div class="row op-cadastro justify-content-between">
+                            <div class="col-6"><a href="">Esqueceu a senha?</a></div>
+                            <div class="col-6"><a href="">Não possui um cadastro? Solicite um.</a></div>
                         </div>
-                                
+                        <div class="row">
+                            <div class="col-sm-6 hvr-pulse-shrink">
+                                <div class="caixaInput">
+                                    <input type="submit" value="Entrar" class="btn-login">
+                                </div>
                             </div>
+                            <div class="col-sm-6 hvr-pulse-shrink">
+                                <div class="caixaInput">
+                                    <a href="index.html"><button class="btn-login">Voltar</button></a>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </form>

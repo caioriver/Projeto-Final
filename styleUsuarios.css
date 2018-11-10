@@ -7,8 +7,7 @@ body{
     height: 100vh;
 }
 .caixaForm{
-    margin-top: 10vh;
-    padding: 20%;
+    padding: 10% 20% 6%;
 }
 h1{
     margin: 0;
@@ -24,13 +23,14 @@ h1{
 }
 .entrada{
     position: relative;
-    width: 100vh;
+    width: 50vw;
     height: 50px;
     background: transparent;
     border: none;
     outline: none;
     font-size: 24px;
     border-bottom: 2px solid white;
+    align-content: center
 }
 .textoInput{
     position: absolute;
@@ -54,4 +54,13 @@ h1{
     outline: none;
     font-size: 24px;
     height: 50px;
+    cursor: pointer;
+}
+.op-cadastro, .op-cadastro a{
+    width: 100%;
+    margin-top: -5%;
+    color: white;
+}
+.caixaInput input[type="submit"], .caixaInput button{
+    margin-top: 40px;
 }
